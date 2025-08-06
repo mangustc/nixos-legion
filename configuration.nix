@@ -212,6 +212,7 @@ SUBSYSTEM=="backlight", ACTION=="add", \
 		xclip
 		adwaita-icon-theme
 		python3
+		neovim
 
 		# gaming
 		protonplus
