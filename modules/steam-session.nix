@@ -46,8 +46,8 @@ export GAMESCOPE_LIMITER_FILE="${"$"}{tmpdir:+$tmpdir/gamescope-limiter}"
 
 export SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0
 export GAMESCOPE_NV12_COLORSPACE=k_EStreamColorspace_BT601
-export INTEL_DEBUG = "norbc";
-export mesa_glthread = "true";
+export INTEL_DEBUG="norbc"
+export mesa_glthread="true"
 export STEAM_GAMESCOPE_HDR_SUPPORTED=1
 export VKD3D_SWAPCHAIN_LATENCY_FRAMES=3
 export WINEDLLOVERRIDES=dxgi=n
@@ -72,7 +72,7 @@ export STEAM_GAMESCOPE_VIRTUAL_WHITE=1
 export STEAM_ENABLE_CEC=1
 export QT_IM_MODULE=steam
 export GTK_IM_MODULE=Steam
-export QT_QPA_PLATFORM = "xcb";
+export QT_QPA_PLATFORM="xcb"
 export QT_QPA_PLATFORM_THEME=kde
 export ENABLE_GAMESCOPE_WSI=1
 export GAMESCOPE_DISABLE_ASYNC_FLIPS=1
